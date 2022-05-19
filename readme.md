@@ -24,8 +24,6 @@ This uses a number of open source projects:
 - [json-server] - a quick back-end for prototyping and mocking.
 
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
 
 ## Installation
 
