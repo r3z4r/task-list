@@ -1,19 +1,19 @@
 {
   "todos": [
     {
-      "task": "new Todo",
-      "done": true,
-      "id": 6
-    },
-    {
-      "task": "there are some done d",
-      "done": true,
-      "id": 7
-    },
-    {
       "task": "dfgadf",
       "done": false,
       "id": 8
+    },
+    {
+      "task": "new note",
+      "done": false,
+      "id": 9
+    },
+    {
+      "task": "some other note",
+      "done": false,
+      "id": 10
     }
   ]
 }

@@ -11,9 +11,9 @@ export interface InitialTodo {
 
 const AddTodo = ({onAdd}: { onAdd: (todo: InitialTodo) => void }) => {
     const [task, setTask] = useState<string>('')
-    
+
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === 'Enter') addTodo()
+        if (e.key === 'Enter' && task!=='') addTodo()
     }
 
     const onChange = (e: ChangeEvent<HTMLInputElement>) => {
