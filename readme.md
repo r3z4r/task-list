@@ -1,19 +1,22 @@
 ## _Todo list_
 
 
-Todo list as Snapp shop task
+Todo list for Snapp shop task
 
-- No css framework iis used
-- See HTML in the right
+- No css framework is used
+- server is implemented with json-server
 - a simple todo list webapp 
 
 ## Features
 
+> Design
+![img.png](img.png)
 
-
+> Final
+![img_5.png](img_5.png)
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+This uses a number of open source projects:
 
 - [ReactJS] - React makes it painless to create interactive UIs
 - [Vite] - [Vitejs](https://vitejs.dev/) Next Generation Frontend Tooling
@@ -28,7 +31,7 @@ And of course Dillinger itself is open source with a [public repository][dill]
 
 pnpm and vite is used for more info visit : [Vitejs](https://vitejs.dev/) - [pnpm](https://pnpm.io/) .
 
-Install the dependencies and devDependencies and start the webapp and server.
+Install the dependencies and devDependencies and start the webapp and server simply by `pnpm start`.
 
 ```sh
 cd snapp-todolist
