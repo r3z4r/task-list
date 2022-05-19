@@ -1,0 +1,37 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font: bold 3rem sans-serif;
+    color: #dbdbdb
+}
+
+.bar {
+    background-color: #97867f;
+    height: 1rem;
+    transform: scaleX(1.01);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+
+.cardWrapper {
+    min-width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.cardWrapper * {
+    width: 100%;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.015);
+}
+
