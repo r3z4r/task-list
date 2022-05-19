@@ -13,7 +13,7 @@ const AddTodo = ({onAdd}: { onAdd: (todo: InitialTodo) => void }) => {
     const [task, setTask] = useState<string>('')
 
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === 'Enter' && task!=='') addTodo()
+        if (e.key === 'Enter') addTodo()
     }
 
     const onChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -21,6 +21,7 @@ const AddTodo = ({onAdd}: { onAdd: (todo: InitialTodo) => void }) => {
     }
 
     const addTodo = () => {
+        if( task==='') return
         onAdd({task, done: false})
         setTask('')
     }
